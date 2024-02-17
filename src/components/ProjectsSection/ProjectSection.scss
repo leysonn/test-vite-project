@@ -1,0 +1,37 @@
+@import '../../styles/colors.scss';
+
+.projects-content {
+    width: 86.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 7.25rem;
+    
+    .subtitle {
+        font-family: $font-family;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 120%;
+        color: $black;
+        margin: 1rem 0;
+    }
+    
+    .title {
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 3.12rem;
+        line-height: 120%;
+        color: $black;
+        margin: 0;
+    }
+    
+    .card-container {
+        width: 86.31rem;
+        height: 27.38rem;
+        margin-top: 2.81rem;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+    }
+}

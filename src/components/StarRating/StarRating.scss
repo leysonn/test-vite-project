@@ -1,0 +1,22 @@
+@import '../../styles/colors.scss';
+
+.star-rating {
+    display: flex;
+    align-items: center;
+    margin: 0 1.5rem;
+
+    .star {
+        width: 1.03625rem;
+        height: 1.0825rem;
+        margin-right: 0.35rem;
+    }
+
+    .rating {
+        font-family: $font-family;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 120%;
+        color: $black;
+        margin: 0 0.59rem;
+    }
+}

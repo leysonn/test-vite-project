@@ -1,0 +1,17 @@
+@import 'normalize.css';
+@import './colors.scss';
+
+html {
+    font-size: calc(1vw/0.9);
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $background-color;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

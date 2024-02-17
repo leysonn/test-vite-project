@@ -1,0 +1,45 @@
+@import '../../styles/colors.scss';
+
+@mixin button($background-color, $text-color, $border) {
+    border-radius: 2.5rem;
+    padding: 0.94rem 1.19rem;
+    height: 3.75rem;
+    background-color: $background-color;
+    border: $border;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 120%;
+    color: $text-color;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    &:active {
+        transform: scale(1);
+    }
+}
+
+.button--black {
+    @include button($text-heading-color, $white, none);
+}
+
+.button--white {
+    @include button($white, $text-heading-color, 0.1rem solid $gray-color);
+}
+
+@keyframes shine {
+    0% {
+        left: -100px;
+    }
+
+    to {
+        left: 10%;
+    }
+}

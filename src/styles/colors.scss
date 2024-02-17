@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=NTR&family=Poppins:wght@400;600;700;800&display=swap');
+$font-family: 'Poppins', sans-serif;
+
+$primary: #c1dee8;
+$secondary: #fbd9b9;
+$black: #000;
+$text-heading-color: #1f1f1f;
+$gray-color: #bebebe;
+$gray-2: #fafafa;
+$white: #fefeff;
+$background-color: #ffffff;
+
+$primary-gradient: linear-gradient(to right, $primary 0%, $secondary 100%);
+$secondary-gradient: linear-gradient(133deg, #c1dee8 9.15%, rgba(255, 255, 255, 0) 52.17%, #fbd9b9 98.84%);

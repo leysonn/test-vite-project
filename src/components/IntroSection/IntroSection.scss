@@ -1,0 +1,54 @@
+@import '../../styles/colors.scss';
+
+.intro-content {
+    border-radius: 0.94rem;
+    width: 86.25rem;
+    height: 38.56rem;
+    background: $primary-gradient;
+    display: flex;
+    justify-content: space-between;
+
+    .title_container {
+        width: 30rem;
+        margin: 5.69rem 2.88rem;
+        left: 0;
+        top: 0;
+        z-index: 1;
+
+        .welcome {
+            font-family: $font-family;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 120%;
+            color: $black;
+            margin: 0;
+        }
+
+        .title {
+            font-family: $font-family;
+            font-weight: 600;
+            font-size: 4.19rem;
+            line-height: 120%;
+            color: $black;
+            max-width: 29.94rem;
+            margin: 1rem 0;
+        }
+
+        .subtitle {
+            font-family: $font-family;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 150%;
+            color: $black;
+            max-width: 27.19rem;
+            margin: 0.5rem 0;
+        }
+    }
+
+    img {
+        width: 49.06rem;
+        height: 41.69rem;
+        position: relative;
+        flex-grow: 0;
+    }
+}

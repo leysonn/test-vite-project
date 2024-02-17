@@ -1,0 +1,74 @@
+@import '../../styles/colors.scss';
+
+.header-content {
+    border-radius: 4.38rem;
+    width: 86.25rem;
+    height: 5.62rem;
+    background: $gray-2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+
+    .logo {
+        margin: 0 2.5rem 0.65rem;
+        width: 5.875rem;
+        height: 1.75rem;
+    }
+
+    .menu {
+        border-radius: 2.5rem;
+        width: 35.69rem;
+        height: 3.75rem;
+        background: $white;
+        margin: 0 2.5rem;
+        direction: ltr;
+        li {
+            float: left;
+            padding: 1.09rem;
+
+            a {
+                font-family: $font-family;
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 120%;
+                color: $text-heading-color;
+                text-decoration: none;
+
+                .search-icon {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                }
+
+                &:hover {
+                    text-decoration: underline
+                }
+            }
+        }
+
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .other {
+        font-family: $font-family;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 120%;
+        color: $text-heading-color;
+        text-decoration: none;
+        margin: 0 2.5rem;
+
+        &:hover {
+            text-decoration: underline
+        }
+    }
+
+    .button--white {
+        margin: 0 1.5rem;
+    }
+}
