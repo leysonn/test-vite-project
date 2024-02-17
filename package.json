@@ -2,7 +2,7 @@
   "name": "test-vite-project",
   "private": true,
   "version": "1.0.0",
-  "homepage": "leysonn.github.io/test-vite-project",
+  "homepage": "https://leysonn.github.io/test-vite-project",
   "type": "module",
   "scripts": {
     "dev": "vite",
