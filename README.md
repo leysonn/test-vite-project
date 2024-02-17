@@ -1,8 +1,9 @@
-# React + Vite
+# Тестовый проект на React + Vite с использованием Sass
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Проект сделан по [бесплатному макету](https://www.figma.com/community/file/1325116068411673165/real-estate-landing-page) из Figma.
 
-Currently, two official plugins are available:
+Основные технологии которые используются в проекте:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://react.dev)
+- [Vite](https://vitejs.dev/)
+- [Sass](https://sass-lang.com/)
