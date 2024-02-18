@@ -1,20 +1,21 @@
-@import "../../../styles/colors.scss";
+@import '../../../styles/colors.scss';
 
-@mixin carousel-btn($background) {
+.carousel-btn {
     width: 2.81rem;
     height: 2.81rem;
     border-radius: 100%;
     padding: 0;
-    background-color: $background;
+    background-color: $text-heading-color;
     border: none;
     cursor: pointer;
-}
 
-.carousel-btn {
-    @include carousel-btn($white);
+    &:hover {
+        background-color: lighten($text-heading-color, 5);
+    }
 
-    &-active {
-        @include carousel-btn($text-heading-color);
+    &:disabled {
+        background-color: $white;
+        cursor: default;
     }
 
     &-img {

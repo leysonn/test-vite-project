@@ -7,7 +7,7 @@
 
     .input {
         border-radius: 2.5rem;
-        border-style: none;
+        border: none;
         height: 0.75rem;
         padding: 1.5rem;
 
@@ -29,15 +29,11 @@
         &:focus {
             outline: none;
         }
-
-        &:active {
-            border: none;
-        }
     }
 
     .button {
         border-radius: 2.5rem;
-        border-style: none;
+        border: none;
         width: 9.19rem;
         height: 3.75rem;
         font-family: $font-family;
