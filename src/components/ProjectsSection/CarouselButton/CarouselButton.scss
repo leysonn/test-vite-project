@@ -4,8 +4,10 @@
     width: 2.81rem;
     height: 2.81rem;
     border-radius: 100%;
+    padding: 0;
     background-color: $background;
     border: none;
+    cursor: pointer;
 }
 
 .carousel-btn {
@@ -13,5 +15,11 @@
 
     &-active {
         @include carousel-btn($text-heading-color);
+    }
+
+    &-img {
+        height: 1.5rem;
+        width: 1.5rem;
+        margin: 0.65rem;
     }
 }
