@@ -1,0 +1,16 @@
+.carousel {
+    position: relative;
+    width: 86.91rem;
+    height: 27.58rem;
+    margin-top: 2.81rem;
+    overflow: hidden;
+
+    .carousel-container {
+        width: 86.91rem * 2 + 1.25rem;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        transition: transform 0.5s ease;
+    }
+}

@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: start;
     margin-top: 7.25rem;
-    
+
     .subtitle {
         font-family: $font-family;
         font-weight: 400;
@@ -15,16 +15,27 @@
         color: $black;
         margin: 1rem 0;
     }
-    
-    .title {
-        font-family: $font-family;
-        font-weight: 600;
-        font-size: 3.12rem;
-        line-height: 120%;
-        color: $black;
-        margin: 0;
+
+    .container {
+        justify-content: space-between;
+
+        .title {
+            font-family: $font-family;
+            font-weight: 600;
+            font-size: 3.12rem;
+            line-height: 120%;
+            color: $black;
+            margin: 0;
+        }
+
+        .button_container {
+            width: 6.62rem;
+            height: 2.81rem;
+            display: flex;
+            justify-content: space-between;
+        }
     }
-    
+
     .card-container {
         width: 86.31rem;
         height: 27.38rem;

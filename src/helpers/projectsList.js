@@ -24,6 +24,27 @@ const projectsList = [
         rating: 4.83,
         key: 'project3',
     },
+    {
+        house_image: house1,
+        title: 'Sobha Hearland II Villas',
+        description: 'Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.',
+        rating: 4.83,
+        key: 'project4',
+    },
+    {
+        house_image: house2,
+        title: 'Sobha Hearland II Villas',
+        description: 'Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.',
+        rating: 4.83,
+        key: 'project5',
+    },
+    {
+        house_image: house3,
+        title: 'Sobha Hearland II Villas',
+        description: 'Lorem ipsum dolor sit amet consectetur. Adipiscing imperdiet bibendum.',
+        rating: 4.83,
+        key: 'project6',
+    },
 ];
 
 export { projectsList };

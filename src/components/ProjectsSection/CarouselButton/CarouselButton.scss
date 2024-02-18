@@ -1,0 +1,17 @@
+@import "../../../styles/colors.scss";
+
+@mixin carousel-btn($background) {
+    width: 2.81rem;
+    height: 2.81rem;
+    border-radius: 100%;
+    background-color: $background;
+    border: none;
+}
+
+.carousel-btn {
+    @include carousel-btn($white);
+
+    &-active {
+        @include carousel-btn($text-heading-color);
+    }
+}
