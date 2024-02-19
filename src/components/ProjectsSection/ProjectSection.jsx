@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { projectsList } from '../../helpers/projectsList';
 import Carousel from './Carousel/Carousel';
 import CarouselButton from './CarouselButton/CarouselButton';
@@ -11,13 +11,13 @@ import next_active_icon from '../../assets/icons/next_active.svg';
 function ProjectSection() {
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    function prevSlide() {
+    const prevSlide = useCallback(() => {
         setCurrentIndex(prevIndex => (prevIndex === 0 ? projectsList.length - 1 : prevIndex - 1));
-    }
+    }, [])
 
-    function nextSlide() {
+    const nextSlide = useCallback(() => {
         setCurrentIndex(prevIndex => (prevIndex === projectsList.length - 1 ? 0 : prevIndex + 1));
-    }
+    }, [])
 
     return (
         <section id="projects">
@@ -35,7 +35,7 @@ function ProjectSection() {
                             <CarouselButton
                                 icons={{ default: next_icon, active: next_active_icon }}
                                 onClick={nextSlide}
-                                isActive={currentIndex === projectsList.length / 2 - 1 ? false : true}
+                                isActive={currentIndex === projectsList.length / 2 ? false : true}
                             />
                         </div>
                     </div>

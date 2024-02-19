@@ -1,13 +1,16 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import './Form.scss';
 
 function Form({ width }) {
     const [email, setEmail] = useState('');
 
-    function onSubmit(event) {
-        if (email != '') alert('Your email: ' + email);
-        event.preventDefault();
-    }
+    const onSubmit = useCallback(
+        event => {
+            if (email != '') alert('Your email: ' + email);
+            event.preventDefault();
+        },
+        [email],
+    );
 
     return (
         <form className="form-container" onSubmit={onSubmit}>
